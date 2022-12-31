@@ -1,0 +1,42 @@
+#myVideo{
+  position:fixed;
+  right:0;
+  bottom:0;
+  min-width:100%;
+  min-height:100%;
+}
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  margin-bottom:-6px
+}
+pre{
+  font-size: 20px;
+}
+
+.button-gp button{
+  background-color:pink;
+  border: 2px solid black;
+  padding: 14px 28px;
+  color:white;
+  cursor:pointer;
+  border-radius: 5px;
+}
+
+.button-gp:after{
+  content:"";
+  clear:both;
+  display:table;
+}
+
+.button-gp button:not(:last-child){
+  border-right: none;
+}
+
+.button-gp button:hover {
+  background-color:red;
+}
+
