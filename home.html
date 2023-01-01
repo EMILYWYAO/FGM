@@ -9,12 +9,18 @@
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <body style="background-color:pink;">
-    <div class="button-gp">
-    <button>Home</button>
-    <button>What is FGM</button>
-    <button>What You Can Do</button>
-    <button>Who We Are</button>
-    </div>
+
+    <!--progress scroll bar-->
+    <div class="header">
+        <div class="progress-container">
+          <div class="progress-bar" id="myBar"></div>
+        </div>
+      </div>
+
+      <button class="button"><span>Home </span></button>
+      <button class="button"><span>What is FGM </span></button>
+      <button class="button"><span>What You Can Do </span></button>
+      <button class="button"><span>Who We Are</span></button>
 
     <style>
     /* Home Page */
@@ -37,20 +43,48 @@
     font-size: 25px;
     }
 
-    p {
-    font-size: 26px
-    }
-
     </style>
 
+    <h1 style="background-color:palevioletred;">Home</h1>
+<!-- Slideshow container -->
+<div class="slideshow-container">
 
-<div class="container">
-    <img src="sadGirl.jpeg" alt="sad" style="width:100%;">
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="Razor.jpeg" style="width:100%">
+      <div class="text">An example of a device used to cut girls. Often unsanitized and blunt.</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="Community.jpeg" style="width:100%">
+      <div class="text">Women feel the need to cut their daughters due to fears of their daughters being ostracized</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="sadGirl.jpeg" style="width:100%">
+      <div class="text">FGM is a crime against children's rights.</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <div class="container">
     <div class="bottom-left">
         Imagine being held down while you are forced to experience a vital and important organ being ripped from your body, 
     changing the course of your life forever. This is the reality that over 200 million women and girls go through.</div>
-
-    <h1 style="background-color:palevioletred;">Home</h1>
 
 
 <h2 style="background-color:palevioletred;">What Is FGM?</h2>
@@ -69,6 +103,7 @@
     Immediately after cutting, girls and women alike experience intense pain and shock due to the lack of sanitary medical equipment and questionable procedure methods. Excess bleeding almost always ensures along with risks of infections and sometimes death.
     Unfortunately, FGM leads to life-long consequences as well as women who undergo this procedure almost always report physical, sexual, and psychological complications. 
 
+
     <h3>Where is FGM practiced?</h3>
     FGM is most commonly practiced in African countries such as Somalia, Guinea and Djibouti. 
     Additionally, FGM victims tend to be more from rural areas and it unusual to find girls from wealthy homes to be cut except in the case of those living in Sudan and Somalia. 
@@ -81,7 +116,6 @@
     In most cases, the patient is not under anesthesia and is forced down by women of her community during the procedure. 
     The person usually cutting the girls will be an older woman. However, this is not always the case. 
     Some medical professionals also practice FGM, such as the case in Egypt where over 70% of procedures are conducted by medical professional.
-    <img src="Razor.jpeg" alt="razor" style="width:100%;" style="height:100%;">
 
     <h3>Why is FGM still practiced?</h3>
     As previously mentioned FGM is mostly practiced due to societal pressures. Fueled by gender inequality, this practice is looked upon as a rite of passage to womanhood for many. 
@@ -121,7 +155,6 @@
 <p><a href="https://www.instagram.com/scarletudaan/?hl=en">Scarlet Udaan's Instagram</a></p>
 <p><a href="https://menendfgm.org/">Men End FGM's Website</a></p>
 <p><a href="https://sahiyo.com/">Sahiyo's Website</a></p>
-<img src="Community.jpeg" alt="diagram" style="width:100%;" style="height:100%;">
 
 <h2 style="background-color:palevioletred;">Who We Are</h2>
 <p style= "font-family:'Times New Roman', Times, serif;" style = "color:black;">
@@ -131,7 +164,16 @@
     by FGM, we believe that injustice to women anywhere is injustive to women EVERYWHERE. Therefore, we urge you to learn, discuss, and share resources about FGM. 
     As Martin Luther King Jr. eloquently once said, "Our lives begin to end the day we become silent about things that matter."
 </p>
-<hr>
+
+<h2>Sources To Check Out</h2>
+<p1><a href="https://www.unicef.org/stories/what-you-need-know-about-female-genital-mutilation">unicef.org,  </p1>
+<p1><a href="https://www.endfgm.eu/female-genital-mutilation/what-is-fgm/">endfgm.eu,  </a></p1>
+<p1><a href="https://en.wikipedia.org/wiki/Female_genital_mutilation">en.wikipedia.org (FGM),  </a></p1>
+<p1><a href="https://en.wikipedia.org/wiki/Female_genital_mutilation_in_the_United_States#:~:text=In%202016%2C%20the%20Centers%20for,with%20%E2%85%93%20under%20age%2018">en.wikipedia.org (FGM in America),  </p1>
+<p1><a href="https://www.who.int/health-topics/female-genital-mutilation#tab=tab_1">who.int,  </a></p1>
+<p1><a href="https://www.unwomen.org/en/digital-library/publications/2020/07/a-75-279-sg-report-female-genital-mutilation">unwomen.org</a></p1>        
+
+
 <script src = "main.js"></script>
 </body>
 <div class="bg"></div>
