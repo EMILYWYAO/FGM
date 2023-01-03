@@ -163,3 +163,7 @@ pre{
   opacity: 1;
   right: 0;
 }
+ 
+.aligncenter {
+  text-align: center;
+}
