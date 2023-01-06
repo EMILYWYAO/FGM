@@ -17,7 +17,37 @@ pre{
   font-size: 20px;
 }
 
+body{
+  margin:0px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+}
 
+nav{
+  background-color:palevioletred;
+  padding:2em 0;
+  text-align:center;
+}
+
+nav a{
+  color:white;
+  margin:0 1em;
+  text-decoration:none;
+}
+
+div{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:fit-content;
+  width:fit-content;
+}
+
+html{
+  scroll-behavior: smooth;
+}
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -106,49 +136,6 @@ pre{
   to {opacity: 1}
 }
 
-/*button*/
-.button {
-  background-color:pink;
-  border: 2px solid black;
-  padding: 14px 28px;
-  color:white;
-  cursor:pointer;
-  border-radius: 5px;
-}
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-.button:hover {
-  background-color: palevioletred; 
-}
- 
-/* Align content to the center */
-.aligncenter {
-  text-align: center;
-}
 
 #myBtn {
   display: none; /* Hidden by default */
@@ -169,3 +156,5 @@ pre{
 #myBtn:hover {
   background-color: purple; 
 }
+
+
