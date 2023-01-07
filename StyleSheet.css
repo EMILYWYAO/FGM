@@ -17,34 +17,6 @@ pre{
   font-size: 20px;
 }
 
-body{
-  margin:0px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  flex-direction:column;
-}
-
-nav{
-  background-color:palevioletred;
-  padding:2em 0;
-  text-align:center;
-}
-
-nav a{
-  color:white;
-  margin:0 1em;
-  text-decoration:none;
-}
-
-div{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  height:fit-content;
-  width:fit-content;
-}
-
 html{
   scroll-behavior: smooth;
 }
