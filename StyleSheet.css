@@ -94,7 +94,7 @@ html{
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: plum
 }
 
 /* Fading animation */
@@ -108,6 +108,7 @@ html{
   to {opacity: 1}
 }
 
+/* Main buttons */
 .myBtn {
   background-color: palevioletred;
   border: none;
@@ -122,8 +123,12 @@ html{
   border-radius: 10px;
 }
 
+.myBtn:hover {
+  background-color: purple; 
+}
 
-.fdmyBtn {
+/*To the top button */
+#Btn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 20px; /* Place the button at the bottom of the page */
@@ -139,7 +144,7 @@ html{
   font-size: 18px; /* Increase font size */
 }
 
-.myBtn:hover {
+#Btn:hover {
   background-color: purple; 
 }
 
